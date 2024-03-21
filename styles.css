@@ -1,0 +1,152 @@
+.navigation{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.navigation-margins{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.img_adv{
+    top: 10px;
+    margin: 10px;
+    position: absolute;
+    height: 24px;
+    width: 74px
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    max-width: 584px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.input-round {
+    flex-grow: 1;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+.input-round:hover{
+    box-shadow: 1px 1px 7px 1px #dcdcdc;
+}
+
+.input-round:focus-within{
+    box-shadow: 1px 1px 7px 1px #dcdcdc;
+}
+
+
+.search-btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.advanced_search{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.find_pages{
+    color: #333333;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.advanced{
+    margin: 25px 35px;
+}
+
+.input_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left{
+    width: 200px;
+}
+
+.right{
+    width: 385px;
+}
+
+.p_advanced{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-primary{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.button_div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 585px;
+}
